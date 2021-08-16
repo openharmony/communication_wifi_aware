@@ -17,7 +17,7 @@ static_library("wifiaware") {
     "interfaces/kits",
     "hals",
     "//foundation/communication/wifi_lite/interfaces/wifiservice",
-    "$ohos_vendor_adapter_dir/hals/communication/wifi_lite/wifiservice/source",
+    "$ohos_board_adapter_dir/hals/communication/wifi_lite/wifiservice/source",
   ]
-  deps = [ "$ohos_vendor_adapter_dir/hals/communication/wifi_lite/wifiaware:hal_wifiaware" ]
+  deps = [ "$ohos_board_adapter_dir/hals/communication/wifi_lite/wifiaware:hal_wifiaware" ]
 }
