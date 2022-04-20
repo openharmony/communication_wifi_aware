@@ -1,0 +1,38 @@
+{
+    "name": "@openharmony/wifi_aware",
+    "version": "3.1.0",
+    "description": "wifi_aware",
+    "publishAs": "code-segment",
+    "scripts": {
+      "install": "DEST_PATH=${DEP_BUNDLE_BASE}/foundation/communication/wifi_aware && mkdir -p $DEST_PATH && cp -r ./* $DEST_PATH"
+    },
+    "author": {},
+    "repository": "",
+    "license": "Apache License 2.0",
+    "component": {
+      "name": "wifi_aware",
+      "subsystem": "communication",
+      "adapted_system_type": [
+        "mini"
+      ],
+      "features": [
+      ],
+      "rom": "967KB",
+      "ram": "28MB",
+      "deps": {
+        "components": [
+        ],
+        "third_party": [
+        ]
+      },
+      "build": {
+        "sub_component": [
+          "//foundation/communication/wifi_aware:wifiaware"
+        ],
+        "inner_kits": [
+        ],
+        "test": [
+        ]
+      }
+    }
+  }
